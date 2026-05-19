@@ -1,0 +1,16 @@
+{
+  "audit_target": {
+    "token_name": "Notcoin",
+    "token_symbol": "NOT",
+    "contract_address": "0x0027449bf0887ca3e431d263ffdefb244d95b555",
+    "wallet_holder": "0xEed79733BF831E3abaFf4f43E6658A67b497952b"
+  },
+  "token_metrics": {
+    "max_total_supply": "115792089237316195423570985008687907853269984665640564039457.584007913129639935",
+    "total_holders": 1626,
+    "multichain_status": "Solidity contract verified on Ethereum mainnet only. Unverified on Binance Smart Chain (BSC) or secondary EVM network layers."
+  },
+  "audit_observations": {
+    "behavior_analysis": "Automated display tracking active across Web3 routing layers. Wallet generation triggers infinite asset approval array pointers inside 1inch interfaces with null economic valuation."
+  }
+}
