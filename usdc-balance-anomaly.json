@@ -1,0 +1,16 @@
+{
+  "audit_target": {
+    "token_name": "USDC Classic / Exploited Position Pointer",
+    "token_symbol": "USDC",
+    "contract_address": "0x7db54758503c25200b331131c219acd64cfa74c8",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "observed_portfolio_metrics": {
+    "true_native_usdc_balance": "2.7012",
+    "associated_spoofed_contract_supply": "105000000000",
+    "application_interface_behavior": "UI tracking conflict. Wallet dashboard registers contract pointer metadata incorrectly, overlaying spoofed token structures onto native account balance rows."
+  },
+  "audit_observations": {
+    "security_log": "Forensic documentation of an interface-level tracking exploit. The custom contract uses shared symbol naming parameters to cross-contaminate portfolio balance reads in multi-chain wallet apps. Logged strictly to verify asset display manipulation."
+  }
+}
