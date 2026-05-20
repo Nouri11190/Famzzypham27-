@@ -1,17 +1,25 @@
 {
   "audit_target": {
-    "token_name": "MyBTC",
-    "token_symbol": "BTC",
-    "contract_address": "0xFbc240219AA33e7D4bC6259d5bedb8744A148f51",
-    "network": "BNB Chain (BEP-20)"
+    "compromised_wallet_holder": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "linked_exploit_developer_address": "0x4DE23f3f61714b2f3",
+    "target_tokens": [
+      {
+        "token_name": "MyBTC",
+        "symbol": "BTC",
+        "contract_address": "0xFbc240219AA33e7D4bC6259d5bedb8744A148f51"
+      },
+      {
+        "token_name": "Tether USD Clone",
+        "symbol": "USDT",
+        "contract_address": "0xac20449e1371a9084274017b4c0992c1b774b5cb"
+      }
+    ]
   },
-  "token_metrics": {
-    "max_total_supply": "10000000",
-    "total_on_chain_holders": 1,
-    "supply_concentration": "100.00% held by a single address",
-    "market_price_usd": "0.00"
+  "incident_metrics": {
+    "wallet_status": "Blacklisted / Compromised",
+    "observed_behavior": "Automated native token sweeping mechanics active. Exploiting entity utilizing localized token contracts to map account storage pointers."
   },
   "audit_observations": {
-    "risk_assessment": "Ghost Token / Centralized Clone. Deployed over 4 years ago with zero market interactions or distribution history. Linked directly to known test-minting entity 0x4DE23f3f...61714b2f3. Carries zero real-world asset valuation."
+    "security_log": "Forensic documentation of an unauthorized wallet takeover. Custom implementation contracts were deployed by the exploit developer to manipulate tracking metrics. This profile is logged strictly for defensive proof and historical analysis."
   }
 }
