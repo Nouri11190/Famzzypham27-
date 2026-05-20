@@ -34,3 +34,6 @@ This repository serves as an immutable, ledger-verified security archive documen
 
 ---
 *Generated securely under defensive project profile tracking structures.*
+| **我要验牌 Spammer** | BNB Chain | [card-verify-airdrop-audit.json](./card-verify-airdrop-audit.json) | Automated 9-decimal verification phishing matrix targeting 211k accounts. |
+| **OpenGradient Spoof** | BNB Chain | [opengradient-spoof-audit.json](./opengradient-spoof-audit.json) | Vanity name hijacking clone used as a 300k holder data scraping filter. |
+| **R2 Tracking Token** | BNB Chain | [r2-token-audit.json](./r2-token-audit.json) | High-volume script token pushing artificial 9-decimal display variations. |
