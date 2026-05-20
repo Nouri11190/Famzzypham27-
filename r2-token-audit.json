@@ -1,0 +1,18 @@
+{
+  "audit_target": {
+    "token_name": "R2 Tracking Token",
+    "token_symbol": "R2",
+    "contract_address": "0x5fb82E0FC3261a765956F31142eA80CdAc64Bf0E",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "1000000000000",
+    "declared_circulating_supply": "999999999993",
+    "total_on_chain_holders": 92308,
+    "market_price_usd": "0.00",
+    "decimals": 9
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Scripted Dust Distribution. Features a matching 9-decimal interface tracking exploit designed to force visibility updates inside consumer application dashboards without underlying AMM liquidity."
+  }
+}
