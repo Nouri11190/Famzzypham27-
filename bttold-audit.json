@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "BitTorrent Old",
+    "token_symbol": "BTTOLD",
+    "token_id_trc10": "1002000",
+    "network": "TRON"
+  },
+  "token_metrics": {
+    "max_total_supply": "990000000000",
+    "circulating_supply": "990000000000",
+    "total_on_chain_holders": 14539575,
+    "holder_concentration_top_10": "98.3387%"
+  },
+  "audit_observations": {
+    "migration_status": "Legacy TRC10 asset. Official token migration to BTTC mainnet initiated at a 1:1,000 redenomination ratio. High supply concentration reflects active migration bridge deposit contracts rather than individual wallet dominance."
+  }
+}
