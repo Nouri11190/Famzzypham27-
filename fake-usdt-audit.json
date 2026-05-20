@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "Tether USD (Spoofed Clone Asset)",
+    "token_symbol": "USDT",
+    "contract_address": "0xac20449e1371a9084274017b4c0992c1b774b5cb",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "1000000000",
+    "total_on_chain_holders": 5,
+    "total_transfers": 4,
+    "market_price_usd": "0.00"
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk. Maliciously deployed contract imitating genuine BEP-20 Tether infrastructure. Distribution ledger contains exactly five test-minted allocations in a mathematical progression. Valued at absolute zero; interaction restricted to prevent network phishing exploits."
+  }
+}
