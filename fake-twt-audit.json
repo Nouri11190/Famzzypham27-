@@ -1,0 +1,16 @@
+{
+  "audit_target": {
+    "token_name": "tokentwt.com (Spoofed Trust Wallet Token)",
+    "token_symbol": "TWT",
+    "contract_address": "0x575B0339A30d5F29DcBC444AB28f2b194A5e2fa7",
+    "network": "BNB Chain (BSC)"
+  },
+  "token_metrics": {
+    "displayed_wallet_balance": "2615.76",
+    "maximum_supply": "1000000000000000",
+    "on_chain_holders": "1 (Single Wallet Controlled)"
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Spoofed Clone Asset. Contract uses a flash-listing metadata configuration to mimic official Trust Wallet Token parameters. True liquidity routing is nonexistent. Documented strictly for security profile validation."
+  }
+}
