@@ -1,0 +1,18 @@
+{
+  "audit_target": {
+    "token_name": "BMBW Token / BNBW Phishing Matrix",
+    "token_symbol": "BMBW",
+    "contract_address": "0x5558447b06867ffebd87dd63426d61c868c45904",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "1000000000000",
+    "declared_circulating_supply": "999976247801",
+    "total_on_chain_holders": 1386030,
+    "on_chain_market_cap_usd": "0.00",
+    "decimals": 9
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Mass-Scale Automated Distribution. Asset utilizes a 9-decimal precision layout designed to trigger balancing errors in tracking applications. Ledger contains over 1.3 million scripted endpoints deployed with zero backing economic liquidity."
+  }
+}
