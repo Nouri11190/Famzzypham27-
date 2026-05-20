@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "11GAS.org",
+    "token_symbol": "11GAS.org",
+    "contract_address": "0x3333606fcD1d09EA9C1c25320b27543E619b8399",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "111006067623478598310752149501441613053815044227055227127763.398459",
+    "total_on_chain_holders": 28311,
+    "total_observed_transfers": 31277,
+    "market_price_usd": "0.00"
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Active Phishing Vector. Contract utilizes an oversized max supply array allocation mimicking an infinite mint profile. Broad distribution metrics are generated via automated high-volume script-spoofing transactions. Linked to localized asset mapping; zero economic valuation."
+  }
+}
