@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "Binance USD (Spoofed Contract Implementation)",
+    "token_symbol": "BUSD",
+    "contract_address": "0x6bb43e324abc3c7ac2b99b0ab0ba8e6d469c83aa",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "0",
+    "declared_circulating_supply": "2500000000",
+    "total_on_chain_holders": 31,
+    "market_price_usd": "0.00"
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Unauthorized Custom Implementation. Contract exhibits hardcoded supply manipulation anomalies where circulating supply math contradicts max total supply bounds. Deployed by exploiter group as an account-tracking mechanism with zero true underlying liquidity pool value."
+  }
+}
