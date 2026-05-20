@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "OpenGradient (Spoofed Vanity Clone)",
+    "token_symbol": "OPG",
+    "contract_address": "0x26f85aad862ed974df9adad85b6bc011243839fe",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "100000000000",
+    "declared_circulating_supply": "99999999994",
+    "total_on_chain_holders": 300376,
+    "market_price_usd": "0.00"
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Name-Hijacking Phishing Vector. Contract utilizes infrastructure project naming properties to bypass interface filters. Mass distributed across 300k addresses as an active node prober."
+  }
+}
