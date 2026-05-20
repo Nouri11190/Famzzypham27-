@@ -1,0 +1,19 @@
+{
+  "audit_target": {
+    "token_name": "我要验牌 (Card Verification Phishing Token)",
+    "token_symbol": "我要验牌",
+    "contract_address": "0x6462438a4612998173783b2bce342bd827839932",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "1000000000000",
+    "declared_circulating_supply": "999999999991",
+    "total_on_chain_holders": 211657,
+    "lifetime_transfers": 216205,
+    "market_price_usd": "0.00",
+    "decimals": 9
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Unauthorized Mass Ingestion Vector. Token uses a custom 9-decimal precision ledger to trigger database display conflicts. Features automated script seeding to over 211k distinct user nodes with zero real financial backing."
+  }
+}
