@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "MyBTC",
+    "token_symbol": "BTC",
+    "contract_address": "0xFbc240219AA33e7D4bC6259d5bedb8744A148f51",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "10000000",
+    "total_on_chain_holders": 1,
+    "supply_concentration": "100.00% held by a single address",
+    "market_price_usd": "0.00"
+  },
+  "audit_observations": {
+    "risk_assessment": "Ghost Token / Centralized Clone. Deployed over 4 years ago with zero market interactions or distribution history. Linked directly to known test-minting entity 0x4DE23f3f...61714b2f3. Carries zero real-world asset valuation."
+  }
+}
