@@ -1,0 +1,17 @@
+{
+  "audit_target": {
+    "token_name": "BTCETF Token (Spoofed Project Variant)",
+    "token_symbol": "BTCETF",
+    "contract_address": "0x37d762A9c38EAe595bEbcF0Ada2DF93aB83ff8ac",
+    "network": "BNB Chain (BEP-20)"
+  },
+  "token_metrics": {
+    "max_total_supply": "2100000000",
+    "total_on_chain_holders": 36487,
+    "market_price_usd": "0.00",
+    "on_chain_market_cap_usd": "0.00"
+  },
+  "audit_observations": {
+    "risk_assessment": "High Risk / Algorithmic Balance Spoof. Asset uses automated batch distribution protocols across mapped nodes to artificially inflate transaction histories and wallet position indexes. Evaluated at absolute zero market liquidity value."
+  }
+}
